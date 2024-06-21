@@ -1,7 +1,7 @@
 # Drug-Discovery
 # Requirements
-Python 3.6+
-pandas
-numpy
-scikit-learn
-matplotlib
+1. Python 3.6+    
+2. pandas
+3. numpy
+4. scikit-learn
+5. matplotlib
