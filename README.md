@@ -39,9 +39,11 @@ Output
 
 "Script Explanation"
 - Loading Data: The dataset is loaded into a Pandas DataFrame.
-- Molecule Conversion: Each SMILES string is converted to an RDKit molecule object.
 - Descriptor Calculation: Lipinski's descriptors are computed for each molecule.
-- Data Storage: The descriptors are stored in a Pandas DataFrame and returned.
+- Computing Molecular Descriptors
+- Normalizing Biological Activity Values
+- Computing pIC50 Values
+- Computing pIC50 Values
 
 Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
