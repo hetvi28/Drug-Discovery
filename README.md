@@ -40,7 +40,7 @@ Output
 -Number of Hydrogen Bond Donors (NumHDonors)
 -Number of Hydrogen Bond Acceptors (NumHAcceptors)
 
-"Script Explanation"
+# Script Explanation
 - Compute Molecular Descriptors: Run the script provided in the Computing Molecular Descriptors section to calculate Lipinski's descriptors for your dataset.
 - Normalize Biological Activity Values: Run the script provided in the Normalizing Biological Activity Values section to normalize biological activity values in your dataset.
 - Compute pIC50 Values: Run the script provided in the Computing pIC50 Values section to compute pIC50 values from the normalized biological activity values.
