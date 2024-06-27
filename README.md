@@ -48,6 +48,6 @@ Output
 - Visualize Bioactivity Classes: Run the script provided in the Visualizing Bioactivity Classes section to create a count plot of bioactivity classes.
 
 
-Contributing
+# Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
