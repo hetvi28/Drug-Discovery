@@ -24,3 +24,25 @@ Ensure you have the following software installed on your machine:
 # Pre-processing the data
 Preprocessing involves cleaning the data, handling missing values, and preparing it for analysis. 
 
+# Understanding the Script
+
+Input
+
+"SMILES Strings": The script expects a CSV file (bioactivity_preprocessed_data.csv) with a column named canonical_smiles containing the SMILES strings of the compounds.
+
+Output
+"Lipinski's Descriptors": The script computes the following descriptors for each compound:
+-Molecular Weight (MW)
+-LogP (octanol-water partition coefficient)
+-Number of Hydrogen Bond Donors (NumHDonors)
+-Number of Hydrogen Bond Acceptors (NumHAcceptors)
+
+"Script Explanation"
+- Loading Data: The dataset is loaded into a Pandas DataFrame.
+- Molecule Conversion: Each SMILES string is converted to an RDKit molecule object.
+- Descriptor Calculation: Lipinski's descriptors are computed for each molecule.
+- Data Storage: The descriptors are stored in a Pandas DataFrame and returned.
+
+Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
